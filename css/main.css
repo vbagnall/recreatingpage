@@ -1,0 +1,124 @@
+.main-container {
+	width: 90%;
+	margin: auto;
+
+}
+
+/* Section One CSS Start */
+
+.section-one {
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-one-left {
+	width: 29%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.section-one-left-top {
+	height: 295px;
+	background-color: pink;
+}
+
+.section-one-left-bottom {
+	height: 295px;
+	background-color: aqua;
+}
+
+.section-one-right {
+	width: 69%;
+	height: 600px;
+	background-color: yellow;
+}
+
+/* Section One CSS End */
+
+/* Section Two CSS Start */
+
+/* Section Two LEFT SIDE Start */
+
+.section-two {
+	width: 100%;
+	height: 1200px;
+	display: flex;
+}
+
+.section-two-left {
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.section-two-left-top {
+	width: 68%;
+	height: 600px;
+	background-color: blue;
+}
+
+.section-two-left-right {
+	width: 30%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.section-two-left-right-top {
+	height: 295px;
+	background-color: orange;
+}
+
+.section-two-left-right-bottom {
+	height: 295px;
+	background-color: red;
+}
+
+.section-two-bottom {
+	width: 100%;
+	height: 590px;
+	background-color: #00ff00;
+	margin-top: 15px;
+}
+
+/* Section Two LEFT SIDE End */
+
+/* Section Two RIGHT SIDE Start */
+
+.section-two-right {
+	width: 30%;
+	height: 1200px;
+	margin-top: 15px;
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.section-two-right-top {
+	width: 99%;
+	height: 295px;
+	background-color: turquoise;
+}
+
+.section-two-right-middle {
+	width: 99%;
+	height: 590px;
+	background-color: green;
+}
+
+.section-two-right-bottom {
+	width: 99%;
+	height: 295px;
+	background-color: aquamarine;
+}
+/* Section Two RIGHT SIDE End */
+
+/* Section Two CSS End */
